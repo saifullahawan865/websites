@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdullah-Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .portfolio-item {
+            position: relative;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .portfolio-item.large img {
+            height: 100%;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .footer-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #6200ea;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <a class="navbar-brand" href="#" style="font-family: 'Brush Script MT', cursive; margin-right: 750px;"><b>SAIF ULLAH</b></a>
+
+    <div class="container">
+        <header>
+            <nav>
+              
+                <ul>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Featured Works</h1>
+                <button class="cta-button">All Works</button>
+                <button class="cta-button">Photography</button>
+                <button class="cta-button">Web Design</button>
+                <button class="cta-button">Mobile Design</button>
+                 
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="portfolio-item large">
+                <img src="https://images.pexels.com/photos/20453584/pexels-photo-20453584/free-photo-of-peruvian-girls-wearing-traditional-clothing-sitting-by-a-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Featured Work 2">
+            </div>
+            <div class="portfolio-item">
+                <img src=" https://images.pexels.com/photos/21253737/pexels-photo-21253737/free-photo-of-facade-of-one-of-the-buildings-at-the-massena-square-in-nice-france.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 3">
+            </div>
+            <div class="portfolio-item large">
+                <img src=" https://images.pexels.com/photos/18173252/pexels-photo-18173252/free-photo-of-payphone-in-a-red-telephone-booth.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 4">
+            </div>
+            <div class="portfolio-item">
+                <img src=" https://images.pexels.com/photos/28798315/pexels-photo-28798315/free-photo-of-elderly-man-creating-traditional-calligraphy-art.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 5">
+            </div>
+            <div class="portfolio-item">
+                <img src=" https://images.pexels.com/photos/28948056/pexels-photo-28948056/free-photo-of-historic-red-tram-in-istanbul-street-setting.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 6">
+            </div>
+            <div class="portfolio-item">
+                <img src=" https://images.pexels.com/photos/28894587/pexels-photo-28894587/free-photo-of-snow-capped-andes-mountains-over-lake-nahuel-huapi.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Featured Work 7">
+            </div>
+        </section>
+
+        <footer>
+            <p>Let's create good works together.</p>
+            <div class="footer-links">
+                <a href="#">© 2024  Saif Ullah Awan. All rights reserved.</a>
+              
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
